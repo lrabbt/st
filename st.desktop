@@ -1,7 +1,11 @@
 [Desktop Entry]
+Name=Simple Terminal
+GenericName=Terminal
+Comment=Suckless terminal emulator for X
+Exec=st -t "Simple Terminal" -e tmux
+Terminal=false
 Type=Application
-Name=st
-Comment=simple-terminal emulator for X
+Encoding=UTF-8
 Icon=utilities-terminal
-Exec=st
-Categories=System;TerminalEmulator
+Categories=System;TerminalEmulator;
+Keywords=shell;prompt;command;commandline;cmd;
